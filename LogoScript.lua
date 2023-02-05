@@ -29,7 +29,7 @@ local function loadImageMeta()
         ['sizeX'] = ui.imageSize(image_0_source).x,
         ['sizeY'] = ui.imageSize(image_0_source).y,
         ['paddingX'] = 10,
-        ['paddingY'] = -100,
+        ['paddingY'] = -40,
         ['scale'] = 0.5}
 
 
