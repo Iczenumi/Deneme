@@ -180,6 +180,6 @@ function script.drawUI()
 -------------ADD YOUR ADDITIONAL IMAGES UNDER HERE,----------------
 ----------------SO THAT THEY ARE DRAWN ON SCREEN-------------------
 -------------------------------------------------------------------
-    positionImage(image_0, 'bottom_left', debugImage)
+    positionImage(image_0, 'center_left', debugImage)
 --DO NOT forget the final "end" over here, otherwise it will not work.
 end
