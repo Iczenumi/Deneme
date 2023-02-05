@@ -1,18 +1,4 @@
 
---x is horizontal
---y is vertical
---(0,0) is the top left corner
-
-local scriptVersion = "2.0"
-ac.debug("1. Numiez Gang Garage Sunucularına Hoşgeldiniz!)
-ac.debug("2. Lütfen Kurallara Uyunuz!")
-
-local screensize = vec2(ac.getSim().windowWidth,ac.getSim().windowHeight)
-local debugFlash, debugImage, debugLines,imageMetaLoaded = false, false, false, 0
-setInterval(function ()debugFlash = not debugFlash end, 0.5)
-ui.setAsynchronousImagesLoading(true)
-
-
 --Image Config table that is used by the script. 
 --Duplicate the entire table and increment the numbers by 1.
 --Follow the example from image_0 and image_1 to get an understanding of how it works.
