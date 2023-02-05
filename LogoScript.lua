@@ -29,7 +29,7 @@ local function loadImageMeta()
         ['sizeX'] = ui.imageSize(image_0_source).x,
         ['sizeY'] = ui.imageSize(image_0_source).y,
         ['paddingX'] = 10,
-        ['paddingY'] = -60,
+        ['paddingY'] = 10,
         ['scale'] = 0.5}
 
 
@@ -165,7 +165,7 @@ function script.drawUI()
     if creditTimer > 0 then
         display.rect({ pos = vec2(screensize.x/2-120, creditPos-5), size = vec2(240,40), color = rgbm(0,0,0,0.5)})
         display.text({
-            text = 'Server Icon Script v'..scriptVersion..'\n    by CheesyManiac',
+            text = 'Numiez Gang Garage Sunucularına Hoşgeldiniz!',
             pos = vec2((screensize.x/2)-92, creditPos),
             letter = vec2(8, 16),
             font = 'aria',
@@ -180,6 +180,6 @@ function script.drawUI()
 -------------ADD YOUR ADDITIONAL IMAGES UNDER HERE,----------------
 ----------------SO THAT THEY ARE DRAWN ON SCREEN-------------------
 -------------------------------------------------------------------
-    positionImage(image_0, 'bottom_left', debugImage)
+    positionImage(image_0, 'center_left', debugImage)
 --DO NOT forget the final "end" over here, otherwise it will not work.
 end
