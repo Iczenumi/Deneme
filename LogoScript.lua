@@ -4,8 +4,8 @@
 --(0,0) is the top left corner
 
 local scriptVersion = "2.0"
-ac.debug("1. Cheesy Icon Script", 'v'..scriptVersion)
-ac.debug("2. Original Source: ", "https://github.com/CheesyManiac/")
+ac.debug("1. Numiez Gang Garage Sunucularına Hoşgeldiniz!)
+ac.debug("2. Lütfen Kurallara Uyunuz!")
 
 local screensize = vec2(ac.getSim().windowWidth,ac.getSim().windowHeight)
 local debugFlash, debugImage, debugLines,imageMetaLoaded = false, false, false, 0
@@ -29,8 +29,8 @@ local function loadImageMeta()
         ['sizeX'] = ui.imageSize(image_0_source).x,
         ['sizeY'] = ui.imageSize(image_0_source).y,
         ['paddingX'] = 10,
-        ['paddingY'] = 20,
-        ['scale'] = 1}
+        ['paddingY'] = 40,
+        ['scale'] = 0.7}
 
 
         image_1 = {
@@ -180,6 +180,6 @@ function script.drawUI()
 -------------ADD YOUR ADDITIONAL IMAGES UNDER HERE,----------------
 ----------------SO THAT THEY ARE DRAWN ON SCREEN-------------------
 -------------------------------------------------------------------
-    positionImage(image_0, 'center_left', debugImage)
+    positionImage(image_0, 'bottom_left', debugImage)
 --DO NOT forget the final "end" over here, otherwise it will not work.
 end
