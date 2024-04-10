@@ -77,7 +77,7 @@ end
 
 function script.update(dt)
 	--#region [Timer]
-	if timer.running >= 15 then -- timer for anything to go
+	if timer.running >= 0 then -- timer for anything to go
 		timer.running = timer.running - dt
 	end
 	--#endregion
