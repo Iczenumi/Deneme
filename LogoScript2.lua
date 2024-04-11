@@ -12,7 +12,7 @@ local image_0 = {
 
 --image_1 is used as the icon
 local image_1 = {
-    ['src'] = 'https://cdn.discordapp.com/attachments/1050391137967419392/1071839833523224576/1Artboard_2.png',
+    ['src'] = 'https://cdn.numiezganggarage.com.tr/ServerLogo.png',
     ['sizeX'] = 128,
     ['sizeY'] = 128,
     ['paddingX'] = 50, --use this to align it, currently 50 pixels from top right
