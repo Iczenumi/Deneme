@@ -3,7 +3,7 @@ local timer = 5
 
 --image_0 is used as the rules splash screen
 local image_0 = {
-    ['src'] = 'public-url-link-goes-here',
+    ['src'] = 'https://cdn.numiezganggarage.com.tr/KurallarYeni.png',
     ['sizeX'] = 512, --size of your image in pixels
     ['sizeY'] = 512, --size of your image in pixels
     ['paddingX'] = screensize.x/2-512/2, --this makes it sit in the centre of the screen
@@ -12,7 +12,7 @@ local image_0 = {
 
 --image_1 is used as the icon
 local image_1 = {
-    ['src'] = 'https://cdn.numiezganggarage.com.tr/ServerLogo.png',
+    ['src'] = 'logo goes here',
     ['sizeX'] = 128,
     ['sizeY'] = 128,
     ['paddingX'] = 50, --use this to align it, currently 50 pixels from top right
