@@ -13,10 +13,10 @@ local image_0 = {
 --image_1 is used as the icon
 local image_1 = {
     ['src'] = 'https://cdn.numiezganggarage.com.tr/kafeler/ArceusPark/ArceusParkLogo.png',
-    ['sizeX'] = 128,
-    ['sizeY'] = 128,
-    ['paddingX'] = 550, --use this to align it, currently 50 pixels from top right
-    ['paddingY'] = 50 --use this to align it, currently 50 pixels from top right
+    ['sizeX'] = 158,
+    ['sizeY'] = 158,
+    ['paddingX'] = 50, --use this to align it, currently 50 pixels from top right
+    ['paddingY'] = 350 --use this to align it, currently 50 pixels from top right
 }
 
 --this waits for the driver to not be in the setup screen, then starts the timer for the rule splash image
