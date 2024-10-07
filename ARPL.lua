@@ -15,7 +15,7 @@ local image_1 = {
     ['src'] = 'https://cdn.numiezganggarage.com.tr/kafeler/ArceusPark/ArceusParkLogo.png',
     ['sizeX'] = 158,
     ['sizeY'] = 158,
-    ['paddingX'] = 150, --use this to align it, currently 50 pixels from top right
+    ['paddingX'] = 180, --use this to align it, currently 50 pixels from top right
     ['paddingY'] = 50 --use this to align it, currently 50 pixels from top right
 }
 
