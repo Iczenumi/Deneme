@@ -16,7 +16,7 @@ local image_1 = {
     ['sizeX'] = 158,
     ['sizeY'] = 158,
     ['paddingX'] = 150, --use this to align it, currently 50 pixels from top right
-    ['paddingY'] = 300 --use this to align it, currently 50 pixels from top right
+    ['paddingY'] = 200 --use this to align it, currently 50 pixels from top right
 }
 
 --this waits for the driver to not be in the setup screen, then starts the timer for the rule splash image
