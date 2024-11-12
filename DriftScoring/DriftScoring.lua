@@ -248,7 +248,7 @@ function script.update(dt)
             CurrentDriftScore = CurrentDriftScore - (CurrentDriftScore*2*dt)
         end
 
-        if SettingsShowScoreDisplay and SettingsShowScoreDisplay > 0 then
+        if SettingsShowScoreDisplay and SettingsShowScoreDisplay > 1 then
             SettingsShowScoreDisplay = SettingsShowScoreDisplay - 1
         end
 
